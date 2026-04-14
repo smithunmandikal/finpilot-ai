@@ -61,3 +61,5 @@ df = df.sort_values('date').reset_index(drop=True)
 # Step 7: Save as CSV and print summary
 df.to_csv('transactions.csv', index=False)
 print(f"Generated {len(df)} transactions | Total spend: ${df['amount'].sum():,.2f}")
+Add synthetic transaction data generator — 
+builds 500 realistic bank transactions for model training and demo
