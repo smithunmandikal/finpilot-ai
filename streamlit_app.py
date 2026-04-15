@@ -20,6 +20,7 @@ uploaded_file = st.file_uploader("Upload your transaction CSV", type=["csv"])
 
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
+    df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
     st.success(f"Loaded {len(df)} transactions successfully")
 
     total_spend = df["amount"].sum()
