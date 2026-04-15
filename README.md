@@ -96,7 +96,7 @@ finpilot-ai/
 
 ---
 
-## 🌍 Global Fusion Foundation on AI Hackathon
+## 🌍 Orion Build Challenge on AI Hackathon
 
 **Track:** Fintech | **Category:** Personal Finance AI
 
